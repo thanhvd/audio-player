@@ -44,7 +44,7 @@ export default function AudioPlayer({
   const [duration, setDuration] = React.useState(0);
   const [currrentProgress, setCurrrentProgress] = React.useState(0);
   const [buffered, setBuffered] = React.useState(0);
-  const [volume, setVolume] = React.useState(0.2);
+  const [volume, setVolume] = React.useState(0.5);
   const [isPlaying, setIsPlaying] = React.useState(false);
   const [playbackRate, setPlaybackRate] = React.useState(1);
 
@@ -181,8 +181,8 @@ export default function AudioPlayer({
             >
               <MdSpeed size={20} />
             </IconButton>
-            <span>{playbackRate}</span>
             <PlaybackRateInput rate={playbackRate} onChange={handlePlaybackRateChange} />
+            <span>{playbackRate}</span>
           </div>
         </div>
 

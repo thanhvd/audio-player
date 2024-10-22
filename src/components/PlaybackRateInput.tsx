@@ -13,7 +13,7 @@ export default function PlaybackRateInput({
       name="rate"
       type="range"
       min={0.1}
-      step={0.05}
+      step={0.1}
       max={2}
       value={rate}
       className="w-[80px] m-0 h-2 rounded-full accent-amber-600 bg-gray-700 appearance-none cursor-pointer"

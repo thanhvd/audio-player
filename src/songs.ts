@@ -6,6 +6,11 @@
 // }));
 
 const fileNames = [
+  '016-Succeed in A2 Key - Test 4 - Part 1',
+  '017-Succeed in A2 Key - Test 4 - Part 2',
+  '018-Succeed in A2 Key - Test 4 - Part 3',
+  '019-Succeed in A2 Key - Test 4 - Part 4',
+  '020-Succeed in A2 Key - Test 4 - Part 5',
   'Test 4 Listening',
   '001-Succeed in A2 Key - Test 1 - Part 1',
   '002-Succeed in A2 Key - Test 1 - Part 2',

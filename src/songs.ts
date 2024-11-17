@@ -6,6 +6,18 @@
 // }));
 
 const fileNames = [
+  'E1',
+  'E2',
+  'E3',
+  'E4',
+  'E5',
+  'E6',
+  'E7',
+  'E8',
+  'E9, 10',
+  'E11, 12',
+  'E13, 14',
+  'E15, 16',
   '016-Succeed in A2 Key - Test 4 - Part 1',
   '017-Succeed in A2 Key - Test 4 - Part 2',
   '018-Succeed in A2 Key - Test 4 - Part 3',

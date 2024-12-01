@@ -170,11 +170,11 @@ export default function AudioPlayer({
         </div>
       </div>
       <div className="grid grid-cols-3 items-center mt-4">
-        <div className="flex items-center justify-start gap-4">
+        <div className="flex items-center justify-between gap-1">
           <span className="text-xs">
             {elapsedDisplay} / {durationDisplay}
           </span>
-          <div className="flex items-center justify-start gap-2">
+          <div className="flex items-center justify-between gap-1">
             <IconButton
               intent="secondary"
               size="sm"
@@ -182,7 +182,7 @@ export default function AudioPlayer({
               <MdSpeed size={20} />
             </IconButton>
             <PlaybackRateInput rate={playbackRate} onChange={handlePlaybackRateChange} />
-            <span>{playbackRate}</span>
+            <span className='text-xs w-[20px]'>{playbackRate.toFixed(1)}</span>
           </div>
         </div>
 

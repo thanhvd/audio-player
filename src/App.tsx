@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import { MdPlayArrow, MdPause } from 'react-icons/md';
 import AudioPlayer from './AudioPlayer';
 
@@ -10,10 +11,10 @@ export default function App() {
   const currentSong = songs[currentSongIndex];
 
   return (
-    <div className="flex flex-col h-full bg-slate-800 text-slate-300">
+    <div className="flex flex-col h-[100vh] bg-slate-800 text-slate-300 gap-[20px] p-4 pb-16">
       <div className="container mx-auto px-6 py-8 flex-1">
         <h1 className="text-4xl font-bold mb-8">Lâm's Audio Player</h1>
-        <div className='max-h-[300px] overflow-y-scroll'>
+        <div className='max-h-[320px] overflow-y-scroll'>
           <ul>
             {songs.map((song, index) => (
               <li key={song.title} className="mb-1">
@@ -49,6 +50,14 @@ export default function App() {
           songIndex={currentSongIndex}
           onNext={() => setCurrentSongIndex((i) => i + 1)}
           onPrev={() => setCurrentSongIndex((i) => i - 1)}
+        />
+      </div>
+      <div className='flex justify-center flex-1'>
+        <ReactPlayer
+          controls
+          url={['https://www.youtube.com/embed/A3UMD6V4a4s?si=OFSst05xSFmWBzLF']}
+          width={720}
+          height={470}
         />
       </div>
     </div>

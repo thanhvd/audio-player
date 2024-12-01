@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdPlayArrow, MdPause } from 'react-icons/md';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/youtube'
 import AudioPlayer from './AudioPlayer';
 
 import { songs } from './songs';

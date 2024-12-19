@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="flex flex-col h-[100vh] bg-slate-800 text-slate-300 gap-[20px] p-4 pb-16">
-      <div className="container mx-auto px-6 py-8 flex-1">
+      <div className="container mx-auto px-6 py-8">
         <h1 className="text-4xl font-bold mb-8">Lâm's Audio Player</h1>
         <div className='max-h-[320px] overflow-y-scroll'>
           <ul>
@@ -55,9 +55,12 @@ export default function App() {
       <div className='flex justify-center flex-1'>
         <ReactPlayer
           controls
-          url={['https://www.youtube.com/embed/A3UMD6V4a4s?si=OFSst05xSFmWBzLF']}
-          width={720}
-          height={470}
+          url={[
+            'https://www.youtube.com/watch?v=mhsygS0z1Tc',
+            'https://www.youtube.com/embed/A3UMD6V4a4s?si=OFSst05xSFmWBzLF'
+          ]}
+          width={560}
+          height={240}
         />
       </div>
     </div>

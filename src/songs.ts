@@ -56,3 +56,10 @@ export const songs = fileNames.map((fileName) => ({
   title: fileName,
   src: `/files/${fileName}.mp3`
 }))
+
+export const songLinks = [
+  'https://www.youtube.com/watch?v=tWlKCkm2P08',
+  'https://www.youtube.com/watch?v=8UOuU5VeuCs',
+  'https://www.youtube.com/watch?v=mhsygS0z1Tc',
+  'https://www.youtube.com/embed/A3UMD6V4a4s?si=OFSst05xSFmWBzLF'
+]

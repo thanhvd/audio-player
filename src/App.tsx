@@ -3,7 +3,7 @@ import { MdPlayArrow, MdPause } from 'react-icons/md';
 import ReactPlayer from 'react-player/youtube'
 import AudioPlayer from './AudioPlayer';
 
-import { songs } from './songs';
+import { songLinks, songs } from './songs';
 
 export default function App() {
   const [currentSongIndex, setCurrentSongIndex] = React.useState(-1);
@@ -55,10 +55,7 @@ export default function App() {
       <div className='flex justify-center flex-1'>
         <ReactPlayer
           controls
-          url={[
-            'https://www.youtube.com/watch?v=mhsygS0z1Tc',
-            'https://www.youtube.com/embed/A3UMD6V4a4s?si=OFSst05xSFmWBzLF'
-          ]}
+          url={songLinks}
           width={560}
           height={240}
         />

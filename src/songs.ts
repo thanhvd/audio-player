@@ -6,8 +6,14 @@
 // }));
 
 const fileNames = [
-  'LISTENING TEST 7',
-  'LISTENING TEST 8',
+  'Test 1 - Part 1',
+  'Test 1 - Part 2',
+  'Test 1 - Part 3',
+  'Test 2 - Part 1',
+  'Test 2 - Part 2',
+  'Test 2 - Part 3',
+  // 'LISTENING TEST 7',
+  // 'LISTENING TEST 8',
   // 'LISTENING TEST 4',
   // 'LISTENING TEST 5',
   // 'LISTENING TEST 6',
